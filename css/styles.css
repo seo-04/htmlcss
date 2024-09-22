@@ -1,0 +1,40 @@
+/*
+    css : cascading style sheet
+    html에 <style>을 모두 적으면 너무 길어져서 분리
+
+*/
+
+.container {
+  display: flex;
+  border: 1px solid white;
+  margin-bottom: 5%;
+}
+
+.left img {
+  border-radius: 50%;
+  height: 80px;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  color: gray;
+  margin-top: 56px;
+  margin-left: -40px;
+  font-size: 13px;
+}
+
+.right {
+  margin-top: 20px;
+}
+h5 {
+  margin: 5px 0 0 0;
+}
+
+.font {
+  font-size: 20px;
+}
